@@ -18,7 +18,19 @@
         </activity>
         <activity
             android:name=".SubActivity"
-            android:label="SubActivity">
+            android:label="테스트용">
+        </activity>
+        <activity
+            android:name=".WordListActivity"
+            android:label="단어 목록 보기">
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="촬영 단어 인식">
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:label="퀴즈 단어 인식">
         </activity>
     </application>
 
