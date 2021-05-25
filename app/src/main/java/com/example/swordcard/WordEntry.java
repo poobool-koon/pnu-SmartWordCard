@@ -13,10 +13,6 @@ public class WordEntry {
 
     @Override
     public String toString() {
-        return "WordEntry{" +
-                "english='" + english + '\'' +
-                ", mean='" + mean + '\'' +
-                ", date=" + date +
-                '}';
+        return english + ':' + mean;
     }
 }

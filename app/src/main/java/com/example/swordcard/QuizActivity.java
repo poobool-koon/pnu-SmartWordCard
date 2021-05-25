@@ -12,7 +12,7 @@ public class QuizActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wordlist);
+        setContentView(R.layout.activity_quiz);
 
         btn = (Button)findViewById(R.id.Close);
         btn.setOnClickListener(new View.OnClickListener(){
