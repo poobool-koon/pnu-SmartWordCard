@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("HELLO");
         a.removeWord("Car");
         System.out.println("Words:"+a.getAllWords());
+
+        System.out.println("test git upload");
         
         //촬영모드
         btn = (Button)findViewById(R.id.OpenCam);
