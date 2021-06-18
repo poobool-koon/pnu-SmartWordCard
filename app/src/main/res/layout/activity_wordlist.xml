@@ -7,6 +7,14 @@
     tools:context=".WordListActivity">
 
     <Button
+        android:id="@+id/Download"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sync Cloud"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
         android:id="@+id/Close"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -18,6 +26,8 @@
         android:id="@+id/wordlist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="191dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+    </ListView>
 </androidx.constraintlayout.widget.ConstraintLayout>
